@@ -151,8 +151,21 @@ confirmBtn.addEventListener("click", () => {
         }, 4000);
 
     }
+const message =
+`Hi Shubham ❤️
 
-    confirmBtn.innerHTML = "❤️ See You Soon ❤️";
+I accepted your invitation. 🥹
+
+📅 Date: ${document.getElementById("datePicker").value}
+⏰ Time: ${selectedTime}
+☕ Activity: ${selectedActivity}
+
+See you soon ❤️`;
+
+window.location.href =
+`https://wa.me/919212698086?text=${encodeURIComponent(message)}`;
+    
+confirmBtn.innerHTML = "❤️ See You Soon ❤️";
 confirmBtn.disabled = true;
 
 });
