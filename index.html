@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Evening ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background -->
+    <div id="stars"></div>
+    <div class="moon"></div>
+    <div class="shooting-star"></div>
+
+    <!-- Welcome Screen -->
+    <div id="welcomeScreen" class="screen">
+
+        <h1>Hello Aishwarya ❤️</h1>
+
+        <p>
+            Some moments aren't planned by destiny...
+            they're created by two people who choose
+            to spend time together. ✨
+        </p>
+
+        <button id="startBtn">
+            💖 Open My Little Surprise
+        </button>
+
+    </div>
+
+    <!-- Question Screen -->
+    <div id="questionScreen" class="screen hidden">
+
+        <h2>Will you go on a date with me? ❤️</h2>
+
+        <div class="buttons">
+
+            <button id="yesBtn">💖 Yes</button>
+
+            <button id="noBtn">😂 No</button>
+
+        </div>
+
+    </div>
+
+    <!-- Date Screen -->
+    <div id="dateScreen" class="screen hidden">
+
+        <h2>📅 Choose a day that feels special ❤️</h2>
+
+        <input type="date" id="datePicker">
+
+        <br><br>
+
+        <button id="dateNext">
+            Next ➜
+        </button>
+
+    </div>
+
+    <!-- Time Screen -->
+    <div id="timeScreen" class="screen hidden">
+
+        <h2>⏰ What time feels perfect?</h2>
+
+        <button class="timeBtn">🌇 Evening (5:30 PM - 7:00 PM)</button>
+
+        <button class="timeBtn">🌃 Night (7:30 PM - 9:00 PM)</button>
+
+        <button class="timeBtn">🌙 Late Night (9:30 PM - 11:00 PM)</button>
+
+    </div>
+
+    <!-- Activity Screen -->
+    <div id="activityScreen" class="screen hidden">
+
+        <h2>✨ How should we spend our evening?</h2>
+
+        <button class="activityBtn">☕ Coffee & Endless Talks</button>
+
+        <button class="activityBtn">🍽️ Dinner Together</button>
+
+        <button class="activityBtn">🎬 Movie Date</button>
+
+        <button class="activityBtn">🚗 Long Drive</button>
+
+        <button class="activityBtn">🌳 Evening Walk</button>
+
+    </div>
+
+    <!-- Invitation Screen -->
+<div id="cardScreen" class="screen hidden">
+
+    <h2>💌 A Little Evening To Remember</h2>
+
+    <p><strong>Shubham ❤️ Aishwarya</strong></p>
+
+    <p id="finalDate">📅 Date</p>
+
+    <p id="finalTime">⏰ Time</p>
+
+    <p id="finalActivity">☕ Activity</p>
+
+    <hr>
+
+    <p>
+        Every great story begins with one beautiful evening.
+        <br><br>
+
+        I'd love to spend one peaceful evening with you.
+        <br><br>
+
+        No expectations... just good conversations,
+        lots of smiles, and a memory we'll always remember. ❤️
+    </p>
+
+    <button id="confirmBtn">
+        💖 Confirm Our Evening
+    </button>
+
+</div>
+<audio id="bgMusic" loop>
+    <source src="music/romentic.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<div id="hearts"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
